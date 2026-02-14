@@ -16,9 +16,9 @@ public class AllinpayOptions {
     public string MerchantKey { get; set; } = string.Empty;
 
     /// <summary>
-    /// 签名方式，支持: rsa、sm2
+    /// 签名方式，支持: RSA、SM2
     /// </summary>
-    public string SignType { get; set; } = "rsa";
+    public string SignType { get; set; } = "RSA";
     
     public string  ApiBaseUrl { get; set; } = "https://vsp.allinpay.com";
 
